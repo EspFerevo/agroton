@@ -97,3 +97,23 @@ body {
   font-weight: 500;
   line-height: 1.2;
 }
+
+.about__achievements {
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: -55px;
+}
+
+.about__achievement {
+  background-color: #f4f4e7;
+  border-radius: 20px;
+
+  max-width: 580px;
+
+  padding: 14px 10px;
+  display: flex;
+
+  gap: 25px;
+}

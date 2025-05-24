@@ -46,7 +46,6 @@ select {
 }
 
 @media (favors-reduced-motion: reduce) {
-
   *,
   * ::before,
   * ::after {
