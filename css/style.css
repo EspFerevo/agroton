@@ -117,3 +117,14 @@ body {
 
   gap: 25px;
 }
+
+.about__achievements-img {
+  min-width: 214px;
+}
+
+.about__achievements-title {
+  margin-bottom: 20px;
+}
+
+.about__achievements-text {
+}
