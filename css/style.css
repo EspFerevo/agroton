@@ -83,6 +83,7 @@ body {
 
 .about__title {
   font-family: "Work Sans", sans-serif;
+  margin-bottom: 20px;
 
   font-size: 250px;
   font-weight: 600;
@@ -100,7 +101,6 @@ body {
 
 .about__achievements-inbox {
   position: relative;
-  display: inline-block;
 }
 
 .about__achievements {
@@ -137,7 +137,7 @@ body {
   top: 5px;
 }
 
-.about__achievements-btn .about__achievements-title {
+.about__achievements-title {
   margin-bottom: 20px;
 }
 
