@@ -195,7 +195,43 @@ body {
 /* About progress */
 
 .about__progress-title {
-  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+
+  font-weight: 300;
   font-size: 40px;
   margin-bottom: 40px;
+  line-height: 1.1;
+}
+
+.about__progress-box {
+  display: flex;
+  gap: 140px;
+}
+
+.about__progress__boxtext {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.about__progress-table {
+  border-top: 1px solid rgba(14, 13, 13, 0.23);
+}
+
+.about__progress-item {
+  font-family: "Nunito Sans", sans-serif;
+
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(14, 13, 13, 0.23);
+}
+
+.about__progress-item dt {
+}
+
+.about__progress-item dd {
 }
