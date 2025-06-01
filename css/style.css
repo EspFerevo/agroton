@@ -98,6 +98,11 @@ body {
   line-height: 1.2;
 }
 
+.about__achievements-inbox {
+  position: relative;
+  display: inline-block;
+}
+
 .about__achievements {
   margin-bottom: 90px;
   display: flex;
@@ -122,11 +127,33 @@ body {
   min-width: 214px;
 }
 
-.about__achievements-title {
+.about__achievements-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.about__achievements-btn .about__achievements-title {
   margin-bottom: 20px;
 }
 
 .about__achievements-text {
   font-weight: 600;
   font-size: 14px;
+}
+
+.about__bold-span {
+  font-weight: 600;
+
+  font-weight: bold;
+}
+
+.about__color-span {
+  font-weight: 600;
+
+  color: #f2a531;
 }
