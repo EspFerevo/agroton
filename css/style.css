@@ -127,4 +127,6 @@ body {
 }
 
 .about__achievements-text {
+  font-weight: 600;
+  font-size: 14px;
 }
