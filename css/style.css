@@ -341,3 +341,25 @@ body {
 .slogan__img {
   margin-top: -145px;
 }
+
+/* Partners */
+
+.partners-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 8px 0 20px;
+  width: 242px;
+  height: 60px;
+
+  background-color: #000;
+
+  border-radius: 96px;
+}
+
+.partners-btn__text {
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
