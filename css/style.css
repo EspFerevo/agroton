@@ -246,13 +246,32 @@ body {
   text-transform: uppercase;
   text-align: center;
 
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .products__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+
+  min-width: 334px;
+  padding-bottom: 35px;
+}
+
+.products__item {
+  border-radius: 10px;
+  min-height: 322px;
+  padding: 50px 24px;
+  position: relative;
+}
+
+.product__item-btn {
+  position: absolute;
+  bottom: -12px;
+  left: -8px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
 }
 
 .catalog-btn {
