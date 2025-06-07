@@ -344,6 +344,10 @@ body {
 
 /* Partners */
 
+.partners {
+  padding: 130px 0 150px;
+}
+
 .partners-btn {
   display: flex;
   align-items: center;
@@ -362,4 +366,10 @@ body {
   color: #fff;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.partners__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 120px;
 }
