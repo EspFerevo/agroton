@@ -263,6 +263,28 @@ body {
   min-height: 322px;
   padding: 50px 24px;
   position: relative;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.product__item-title {
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.product__item-text {
+  font-weight: 300;
+}
+
+.products__item:nth-child(odd) {
+  color: white;
+}
+
+.products__item:nth-child(even) {
+  color: black;
 }
 
 .product__item-btn {
