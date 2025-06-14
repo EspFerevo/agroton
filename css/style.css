@@ -574,11 +574,26 @@ body {
 
 .footer__top {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 220px;
   padding: 40px 0;
+}
+.footer__logo-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.footer__logo {
+  max-height: 40px;
+  height: auto;
+}
+
+.footer__logo-text {
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .footer__logo-link {
@@ -587,7 +602,6 @@ body {
 
 .footer__nav {
   display: flex;
-  justify-content: space-between;
   flex-grow: 1;
   gap: 60px;
 }
