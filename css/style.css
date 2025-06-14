@@ -417,7 +417,7 @@ body {
 .partners__box-top::before {
   content: "";
   position: absolute;
-  background-image: url(../images/logo_part_mini.png);
+  background-image: url(../images/partners/logo_part_mini.png);
   width: 63px;
   height: 56px;
   top: 30px;
@@ -444,7 +444,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  background-image: url(../images/partners-arrow.svg);
+  background-image: url(../images/partners/partners-arrow.svg);
   width: 24px;
   height: 24px;
   top: 50%;
