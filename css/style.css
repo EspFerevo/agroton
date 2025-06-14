@@ -401,3 +401,51 @@ body {
 
   margin-bottom: 20px;
 }
+
+.partners__box-top {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #f4f4e7;
+  border-radius: 10px;
+
+  gap: 0 19px;
+}
+
+.partners__box-list {
+  padding-left: 24px;
+  margin-top: auto;
+  padding-bottom: 30px;
+}
+
+.partners__box-item + .partners__box-item {
+  margin-top: 15px;
+}
+.partners__box-item {
+  font-weight: 400;
+  color: #000;
+}
+
+.partners__box-item span {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #f2a531;
+}
+
+.partners__box-text {
+  font-family: "Nunito Sans", sans-serif;
+
+  margin-top: 15px;
+
+  background-color: #0d1615;
+  color: #ffff;
+
+  border-radius: 10px;
+  padding: 30px;
+  /* width: 720px;
+  height: 114px; */
+
+  font-weight: 700;
+  font-size: 20px;
+}
