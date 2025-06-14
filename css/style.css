@@ -578,6 +578,7 @@ body {
   gap: 220px;
   padding: 40px 0;
 }
+
 .footer__logo-box {
   display: flex;
   align-items: center;
@@ -591,13 +592,10 @@ body {
 }
 
 .footer__logo-text {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 500;
   white-space: nowrap;
-}
-
-.footer__logo-link {
-  flex-shrink: 0;
+  text-transform: uppercase;
 }
 
 .footer__nav {
@@ -612,23 +610,20 @@ body {
 }
 
 .footer__title {
-  font-weight: bold;
-  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 .footer__list {
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   padding: 0;
   margin: 0;
-}
-
-.footer__link,
-.footer__text {
-  display: block;
-  margin-bottom: 8px;
-  text-decoration: none;
-  color: inherit;
-  font-size: 14px;
+  list-style: none;
 }
 
 .footer__bottom-list {
