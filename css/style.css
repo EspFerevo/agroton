@@ -403,6 +403,7 @@ body {
 }
 
 .partners__box-top {
+  position: relative;
   display: flex;
   justify-content: space-between;
 
@@ -410,6 +411,17 @@ body {
   border-radius: 10px;
 
   gap: 0 19px;
+  margin-bottom: 15px;
+}
+
+.partners__box-top::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/logo_part_mini.png);
+  width: 63px;
+  height: 56px;
+  top: 30px;
+  left: 20px;
 }
 
 .partners__box-list {
@@ -424,6 +436,19 @@ body {
 .partners__box-item {
   font-weight: 400;
   color: #000;
+  padding-left: 39px;
+  position: relative;
+}
+
+.partners__box-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-image: url(../images/partners-arrow.svg);
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .partners__box-item span {
@@ -436,16 +461,17 @@ body {
 .partners__box-text {
   font-family: "Nunito Sans", sans-serif;
 
-  margin-top: 15px;
-
   background-color: #0d1615;
   color: #ffff;
 
   border-radius: 10px;
   padding: 30px;
-  /* width: 720px;
-  height: 114px; */
 
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 300px;
+}
+
+.partners__box-text span {
+  color: #f2a531;
+  font-weight: 700;
 }
